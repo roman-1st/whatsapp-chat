@@ -39,7 +39,6 @@ const FormData = ({ isOpen, setIsOpen }: PropsFormData) => {
                 <label htmlFor="idInstance">ID Instance</label>
                 <input
                   type="text"
-                  value="1101821255"
                   autoComplete="off"
                   {...register("idInstance", { required: true })}
                 />
@@ -50,7 +49,6 @@ const FormData = ({ isOpen, setIsOpen }: PropsFormData) => {
                 <label htmlFor="apiTokenInstance">API Token Instance</label>
                 <input
                   type="text"
-                  value="b608c8aa5cdb45ed94e7272a676ec8e209b6fde22a3f4d668b"
                   autoComplete="off"
                   {...register("apiTokenInstance", { required: true })}
                 />
